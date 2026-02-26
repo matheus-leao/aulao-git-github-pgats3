@@ -47,11 +47,11 @@ programa {
     7. Mostrar um texto com o nome do aluno e sua média calculada (OK)
   */
 
-  funcao cadeia calcularMediaDoAluno(cadeia nomeDoAluno, real nota1, real nota2, real nota3) {
-    real somatoriaDasNotas
+  funcao cadeia calcularMediaDoAluno(cadeia nomeDoAluno, inteiro nota1, inteiro nota2, inteiro nota3) {
+    inteiro somatoriaDasNotas
     somatoriaDasNotas = nota1 + nota2 + nota3
 
-    real media
+    inteiro media
     media = somatoriaDasNotas / 3
 
     retorne nomeDoAluno + ": " + media
