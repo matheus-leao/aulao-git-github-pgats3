@@ -47,11 +47,11 @@ programa {
     7. Mostrar um texto com o nome do aluno e sua média calculada (OK)
   */
 
-  funcao cadeia calcularMediaDoAluno(cadeia nomeDoAluno, inteiro nota1, inteiro nota2, inteiro nota3) {
-    inteiro somatoriaDasNotas
+  funcao cadeia calcularMediaDoAluno(cadeia nomeDoAluno, real nota1, real nota2, real nota3) {
+    real somatoriaDasNotas
     somatoriaDasNotas = nota1 + nota2 + nota3
 
-    inteiro media
+    real media
     media = somatoriaDasNotas / 3
 
     retorne nomeDoAluno + ": " + media
@@ -59,7 +59,7 @@ programa {
 
   funcao inicio() {
     // 1. Perguntar o nome do aluno
-    escreva("Digite o nome do aluno: ")
+    escreva("Digite o nome completo do aluno: ")
     cadeia nomeDoAlunoQueFoiDigitado
     leia(nomeDoAlunoQueFoiDigitado)
 
