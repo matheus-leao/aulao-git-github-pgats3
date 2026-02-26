@@ -59,7 +59,7 @@ programa {
 
   funcao inicio() {
     // 1. Perguntar o nome do aluno
-    escreva("Digite o nome do aluno: ")
+    escreva("Digite o nome do aluno(a): ")
     cadeia nomeDoAlunoQueFoiDigitado
     leia(nomeDoAlunoQueFoiDigitado)
 
